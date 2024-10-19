@@ -1,0 +1,84 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('upla.jpg');
+    background-size: cover; /* Asegúrate de que la imagen cubra toda el área */
+    background-position: center; /* Centra la imagen */
+    margin: 0;
+    padding: 0;
+    color: #333;
+    opacity: 0.9; /* Opcional: haz que el fondo sea un poco más transparente */
+}
+
+/* Encabezado */
+header {
+    background-color: #000; /* Fondo negro */
+    color: #ffa500; /* Texto color naranja */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(255, 165, 0, 0.5); /* Sombra naranja suave */
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 350px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Estilos de la lista */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto; /* Centrar el ul */
+    width: 50%; /* Hacer más delgado el contenedor ul */
+}
+
+/* Estilos de los elementos de la lista */
+li {
+    margin: 15px 0;
+    text-align: center;
+}
+
+/* Estilos de los enlaces */
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    padding: 15px 30px;
+    border-radius: 30px;
+    background-color: #ffa500; /* Fondo naranja */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra */
+    transition: all 0.3s ease;
+    width: 100%; /* Para que el enlace ocupe todo el ancho del li */
+}
+
+/* Efecto al pasar el mouse sobre los enlaces */
+a:hover {
+    background-color: #000; /* Fondo negro */
+    color: #ffa500; /* Texto cambia a naranja */
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Más sombra */
+}
+
+/* Estilos del pie de página */
+footer {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 0.9em;
+    color: #666;
+}
+
+footer p {
+    margin: 0;
+    color: #000; /* Texto negro */
+}
